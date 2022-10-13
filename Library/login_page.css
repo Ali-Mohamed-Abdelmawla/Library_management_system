@@ -1,0 +1,52 @@
+
+body
+{
+    font-family: 'Barlow', sans-serif; 
+    background-color: #1e1927;
+    background-image: url(loginimg.jpg);
+    background-size: 92%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    /* display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    align-items: center; */
+
+}
+form
+{
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgba(0, 0, 0,0.4); 
+    border-radius:10px;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* display:inline-block; */
+    position: absolute;
+    top:  50%;
+    left: 60%;
+    box-shadow:-12px 14px 10px rgb(0 0 0 / 50%);
+}
+.txtbx
+{
+    margin-left:5px;
+    margin-right:5px;
+    border: 1px solid grey; 
+    height: 25px;
+    border-radius: 8px;
+}
+#submit
+{
+    border:1px solid grey;
+    border-radius:6px;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 30px;
+    cursor: pointer;
+}
+#submit:hover
+{
+    background-color: rgb(160, 160, 160);
+}
